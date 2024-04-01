@@ -1,3 +1,9 @@
+import HamburgerIcon from "./icons/HamburgerIcon";
+
 export default function Navbar() {
-  return <h1>Hello world</h1>;
+  return (
+    <nav className="flex justify-end">
+      <HamburgerIcon />
+    </nav>
+  );
 }
