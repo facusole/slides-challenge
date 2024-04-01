@@ -10,9 +10,9 @@ export default function HamburgerIcon() {
       <path
         d="M13.5 10C23.6536 10 33 10 33 10M7 19.75H33M13.5 29.5H33"
         stroke="black"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
