@@ -7,7 +7,7 @@ export default function Home() {
     <div className="p-6 md:px-16 md:py-6">
       <Navbar />
       <Hero />
-      <div className="grid place-items-center mt-8 md:mt-24">
+      <div className="grid place-items-center mt-8 md:mt-12">
         <Chevron />
       </div>
     </div>
