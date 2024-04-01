@@ -29,7 +29,7 @@ export default function Menu() {
       exit="exit"
       className="h-screen bg-black fixed right-0 top-0 text-white"
     >
-      <div className="h-full p-[100px] flex flex-col justify-between">
+      <div className="h-full p-16 md:p-[100px] flex flex-col justify-between">
         <div
           onMouseLeave={() => {
             setSelectedIndicator(pathname);
@@ -39,7 +39,7 @@ export default function Menu() {
           <div className="border-b-2 border-b-gray-300 uppercase text-sm mb-10">
             <p>Navigation</p>
           </div>
-          <ul className="grid gap-8">
+          <ul className="grid gap-8 text-3xl md:text-5xl">
             <li>Home</li>
             <li>Work</li>
             <li>About</li>
