@@ -1,10 +1,15 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Chevron from "./components/icons/Chevron";
 
 export default function Home() {
   return (
-    <main className="p-6">
+    <div className="p-6">
       <Navbar />
-    </main>
+      <Hero />
+      <div className="grid place-items-center">
+        <Chevron />
+      </div>
+    </div>
   );
 }
