@@ -17,7 +17,7 @@ export default function Hero() {
           About — Personal
         </h2>
         <h1 className="text-3xl mb-6 md:text-5xl">
-          Hello! <span className="font-semibold">I'm Angela Smith</span>
+          Hello! <span className="font-semibold">I&apos;m Angela Smith</span>
         </h1>
         <p className="md:hidden">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
