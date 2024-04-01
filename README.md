@@ -16,9 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 This challenge was made with the following technologies:
 
+- TypeScript.
 - [Next.js 14](https://nextjs.org/docs).
 - [TailwindCSS](https://tailwindcss.com/docs/installation).
-- [Framer-motion](https://www.framer.com/motion/introduction/)
+- [Framer-motion](https://www.framer.com/motion/introduction/).
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
