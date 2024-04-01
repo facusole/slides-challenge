@@ -1,9 +1,17 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 import CTA from "./CTA";
 
 export default function Hero() {
   return (
-    <main className="grid gap-6 md:grid-cols-2 md:place-items-center md:gap-0 select-text selection:bg-[#ddf247] selection:text-black">
+    <motion.main
+      initial={{ opacity: 0, y: -20 }}
+      transition={{ duration: 1 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="grid gap-6 md:grid-cols-2 md:place-items-center md:gap-0 select-text selection:bg-[#ddf247] selection:text-black"
+    >
       <section className="text-center md:text-left">
         <h2 className="uppercase tracking-[0.4em] text-xs mb-3 md:mb-2">
           About — Personal
@@ -46,6 +54,6 @@ export default function Hero() {
       <div className="md:hidden">
         <CTA />
       </div>
-    </main>
+    </motion.main>
   );
 }
