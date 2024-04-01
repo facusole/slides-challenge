@@ -35,20 +35,20 @@ export default function Hero() {
       </section>
       <section className="select-none">
         <Image
-          src={"/assets/hero-image-mobile.webp"}
-          alt="Profile picture of Angela Smith looking left"
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="max-w-[700px] h-auto md:hidden"
-        />
-        <Image
           src={"/assets/hero-image-desktop.webp"}
           alt="Profile picture of Angela Smith looking left"
           width={0}
           height={0}
           sizes="100vw"
           className="w-full h-auto hidden md:block"
+        />
+        <Image
+          src={"/assets/hero-image-mobile.webp"}
+          alt="Profile picture of Angela Smith looking left"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto md:hidden"
         />
       </section>
       <div className="md:hidden">
